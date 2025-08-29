@@ -1,2 +1,2 @@
 # masters-submission
-The main code used for my masters thesis.
+The redacted/minimal code used for my masters thesis.

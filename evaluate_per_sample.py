@@ -18,16 +18,16 @@ BATCH_SIZE_FALLBACK = 8  # used only if batch_size missing in metadata.json
 # Define the models (label, run_folder, variant)
 # variant in {"annealed_best", "continued_dice_only", "standalone_dice_best"}
 MODELS = [
-    ("scratch_annealed", "run/peripherin_scratch_2025-08-16_20-26-08", "annealed_best"),
-    ("scratch_continued", "run/peripherin_scratch_2025-08-16_20-26-08", "continued_on_dice"),
-    ("nf_annealed", "run/peripherin_transfer_nf_2025-08-18_10-20-50", "annealed_best"),
-    ("nf_continued", "run/peripherin_transfer_nf_2025-08-18_10-20-50", "continued_on_dice"),
-    ("nf_dice_only", "run/peripherin_transfer_nf_2025-08-22_03-20-35", "standalone_dice_best"),  # NEW: NF transfer → dice-only training
-    ("th_annealed", "run/peripherin_transfer_th_2025-08-19_00-55-42", "annealed_best"),
-    ("th_continued", "run/peripherin_transfer_th_2025-08-19_00-55-42", "continued_on_dice"),
-    ("th_dice_only", "run/peripherin_transfer_th_2025-08-22_03-21-45", "standalone_dice_best"),  # NEW: TH transfer → dice-only training
-    ("scratch_dice_only", "run/peripherin_scratch_2025-08-19_08-20-01", "standalone_dice_best"),
-    ("baseline", "run/baseline_runs_2025-08-16_17-58-40/BCBaseline_channel_31/default", "standalone_best"),
+    ("scratch_annealed", "", "annealed_best"),
+    ("scratch_continued", "", "continued_on_dice"),
+    ("nf_annealed", "", "annealed_best"),
+    ("nf_continued", "", "continued_on_dice"),
+    ("nf_dice_only", "", "standalone_dice_best"),  # NEW: NF transfer → dice-only training
+    ("th_annealed", "", "annealed_best"),
+    ("th_continued", "", "continued_on_dice"),
+    ("th_dice_only", "", "standalone_dice_best"),  # NEW: TH transfer → dice-only training
+    ("scratch_dice_only", "", "standalone_dice_best"),
+    ("baseline", "", "standalone_best"),
 ]
 
 OUT_CSV = "per_sample_metrics.csv"

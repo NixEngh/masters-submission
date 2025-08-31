@@ -3,8 +3,8 @@
 Permutation feature importance on the VALIDATION set for the chosen primary model.
 
 Model: th_continued (continued-on-dice checkpoint)
-CKPT : run/peripherin_transfer_th_2025-08-19_00-55-42/trial_12/dice_cont_2025-08-20_18-37-18/best_model_dice_only.pth
-META : run/peripherin_transfer_th_2025-08-19_00-55-42/trial_12/metadata.json
+CKPT : 
+META : 
 
 What it does
 ------------
@@ -26,8 +26,8 @@ from torch.cuda.amp import autocast
 from tqdm import tqdm
 
 # --- Hard-coded inputs (your chosen model) ---
-CKPT_PATH  = Path("run/peripherin_transfer_th_2025-08-19_00-55-42/trial_12/dice_cont_2025-08-20_18-37-18/best_model_dice_only.pth")
-META_PATH  = Path("run/peripherin_transfer_th_2025-08-19_00-55-42/trial_12/metadata.json")
+CKPT_PATH  = Path("")
+META_PATH  = Path("")
 H5_PATH    = "data.h5"
 PERIPHERIN_CHANNEL = 31
 

@@ -22,9 +22,9 @@ from loss_functions import SoftDiceLoss
 # User-editable config
 # ----------------------------
 RUNS = {
-    "pretrained_th": "run/peripherin_transfer_th_2025-08-19_00-55-42",
-    "pretrained_nf": "run/peripherin_transfer_nf_2025-08-18_10-20-50",
-    "scratch":       "run/peripherin_scratch_2025-08-16_20-26-08",
+    "pretrained_th": "",
+    "pretrained_nf": "",
+    "scratch":       "",
 }
 
 H5_PATH = "data.h5"

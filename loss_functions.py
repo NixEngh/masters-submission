@@ -96,8 +96,6 @@ class ClDiceLoss(nn.Module):
 
         raw = soft_cldice_loss(probs, tgt, target_skeleton=target_skeleton)
         
-        # 2. CRITICAL: Replace any NaN or Inf that might come from the library with a zero.
-        # This prevents the NaN from poisoning your entire model.
         loss = torch.nan_to_num(raw, nan=0.0, posinf=0.0, neginf=0.0)
 
         # soft_cldice_loss currently returns -score in [-1, 0]; convert to loss in [0, 1]

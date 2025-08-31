@@ -23,8 +23,7 @@ from optuna.distributions import (
 )
 
 # >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-# EDIT THESE TWO VARIABLES
-RUN_DIR = Path("run/peripherin_transfer_nf_2025-08-18_10-20-50")  # existing run folder
+RUN_DIR = Path("")  #
 TOTAL_TRIALS = 20                                                  # planned total
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 

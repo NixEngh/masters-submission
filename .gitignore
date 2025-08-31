@@ -1,0 +1,11 @@
+data/
+.jukit/
+.ipynb_checkpoints/
+constants.py
+__pycache__/
+files/
+run/
+
+
+*.h5
+*.hdf5
